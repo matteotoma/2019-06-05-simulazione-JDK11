@@ -97,7 +97,7 @@ public class Simulator {
 					tempo = e.getTime().plusHours(1);
 			}
 			else
-				tempo = e.getTime().plusHours(1);
+				tempo = e.getTime().plusHours(2);
 			
 			Evento nuovo = new Evento(EventType.GESTITO, tempo, e.getCrimine(), e.getAgente());
 			queue.add(nuovo);
